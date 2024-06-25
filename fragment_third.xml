@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- fragment_third.xml -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third Fragment"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:gravity="center"/>-->
+
+        <TextView
+            android:id="@+id/comment_edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In case of emergency please contact the following numbers that corresponds with the campus you're closest to : \n \n
+
+Steve Biko : 031 373 2223 \n \n
+Ritson Campus: 031 373 6010 \n \n
+City Campus: 031 373 6002 \n \n"
+            android:gravity="start"
+            android:inputType="none"
+            android:lines="5"
+            android:minLines="3"
+            android:maxLines="10"
+            android:textStyle="bold"
+            android:scrollbars="vertical"/>
+
+        <!-- Add your UI components here -->
+        <!-- Example: Button, ImageView, etc. -->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backToMainButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentBottom="true"
+        android:text="Back to Home" />
+
+</RelativeLayout>

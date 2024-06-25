@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- fragment_first.xml -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Fragment"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:gravity="center"/>-->
+
+        <TextView
+            android:id="@+id/comment_edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durban University of Technology (DUT) Clinics offers the following services : \n \n \n
+
+-Minor Ailments Treatment \n
+-Sexually Transmitted Infection(STIs) Treatment \n
+-Tuberculosis (TB) Management \n
+-Immunisation \n
+-HIV Testing \n
+-PEP and PreP \n
+-Pap Smears \n
+-Implanon \n
+-Availability of Contraceptives (including emergency pill) \n \n \n
+
+Clinic Referrals (Internally and Externally) ; Internal referrals (Radiography, Chiropractic, Homeopathy, Dental Departments) \n \n \n
+"
+            android:gravity="start"
+            android:inputType="none"
+            android:lines="5"
+            android:minLines="3"
+            android:maxLines="10"
+            android:textStyle="bold"
+            android:scrollbars="vertical"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backToMainButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentBottom="true"
+        android:text="Back to Home" />
+
+
+</RelativeLayout>

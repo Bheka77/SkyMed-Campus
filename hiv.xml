@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HIVActivity">
+
+    <!-- Your layout content here -->
+
+
+
+<!--<TextView
+        android:id="@+id/titleHIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HIV Information"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/comment_edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HIV(Human Immune Virus) \n \n
+HIV is a virus that attacks the body's immune system,  especially the CD4 cells which help the immune system fight off infections. \n If left untreated,  HIV can lead to the disease AIDS(Acquired Immunodeficiency Syndrome) \n \n
+
+Symptoms \n
+•Swollen lymph nodes \n
+•Rash \n
+•Mouth ulcers \n
+•Chronic diarrhea \n
+•Weight loss \n
+
+Treatment \n \n
+•Antiretroviral therapy(ART) \n
+•Regular medical care and monitoring \n
+•Treatment of opportunistic infections \n
+•Prevention of transmission to others \n"
+        android:gravity="start"
+        android:inputType="none"
+        android:lines="5"
+        android:minLines="3"
+        android:maxLines="10"
+        android:textStyle="bold"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/backToMainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_edittext2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+
+        android:text="Back to Health Resources" />
+
+    <!-- Add other views/widgets here -->
+
+</RelativeLayout>

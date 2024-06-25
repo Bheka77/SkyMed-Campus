@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/editTextFullName10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/StudNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFullName10"
+        android:hint="Student Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/StudNum"
+        android:hint="Identity Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ID"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/physicaladdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Physical Address"
+        android:layout_below="@id/Age"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/physicaladdress"
+        android:hint="Cellphone Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:layout_below="@id/cell"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nok2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:hint="Next Of Kin"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkDisability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nok2"
+        android:layout_marginTop="8dp"
+        android:text="Disability" />
+
+    <EditText
+        android:id="@+id/typeofdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What Is your Common Illness ?"
+        android:layout_below="@id/checkDisability"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/saveinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Information"
+        android:layout_below="@id/typeofdescription"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

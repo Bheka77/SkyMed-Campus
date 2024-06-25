@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- fragment_second.xml -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Add your UI components here -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_margin="16dp"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:text="We are available at the following campuses across Durban :\n
+                 - <b>Steve Biko<b> : Gate 5 (Opposite Fred Crookes Sports Centre)\n
+                 - <b>Ritson Campus<b> : Next to Hotel School\n
+                 - <b>City Campus<b> : Next to Library\n
+                 - <b>Brickfield Campus<b> : Second Floor of campus"/>-->
+
+        <TextView
+            android:id="@+id/comment_edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="We are available at the following campuses across Durban :\n \n
+                 - Steve Biko : Gate 5 (Opposite Fred Crookes Sports Centre)\n \n \n
+                 - Ritson Campus : Next to Hotel School\n \n \n
+                 - City Campus : Next to Library\n \n \n
+                 - Brickfield Campus : Second Floor of campus \n \n \n"
+            android:gravity="start"
+            android:inputType="none"
+            android:lines="5"
+            android:minLines="3"
+            android:maxLines="10"
+            android:textStyle="bold"
+            android:scrollbars="vertical"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backToMainButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentBottom="true"
+        android:text="Back to Home" />
+
+</RelativeLayout>
+

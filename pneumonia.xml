@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PneumoniaActivity">
+
+    <!-- Your layout content here -->
+
+
+
+    <!--<TextView
+        android:id="@+id/titleHIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HIV Information"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/comment_edittext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pneumonia \n \n
+Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing cough with phlegm or pus, fever, chills,  and difficulty breathing. \n \n
+
+Symptoms \n \n
+•Cough with phlegm or pus \n
+•Difficulty breathing \n
+•Nausea and vomiting \n
+•Rapid breathing \n
+•Chest pains \n \n
+
+Treatment \n \n
+•Antibiotics (if bacterial Pneumonia) \n
+•Antiviral drugs(if viral Pneumonia) \n
+•Plenty of rest \n
+•Fluid intake \n
+•Oxygen therapy \n \n"
+        android:gravity="start"
+        android:inputType="none"
+        android:lines="5"
+        android:minLines="3"
+        android:maxLines="10"
+        android:textStyle="bold"
+        android:scrollbars="vertical"/>
+
+
+    <Button
+        android:id="@+id/backpneumonia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment_edittext5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Back to Health Resources" />
+
+    <!-- Add other views/widgets here -->
+
+</RelativeLayout>
